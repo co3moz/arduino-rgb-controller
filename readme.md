@@ -27,7 +27,7 @@ Arduino serial expects 4 byte of data.
 `N` - third char of number
 `X` - which led
 
-If you want to turn on the red light; you must send `255r', If you want to turn off it just send '000r', You can use these too: `100r`, `050g`, `999b`. You can send all of them onces too: `100r050g999b`
+If you want to turn on the red light; you must send `255r`, If you want to turn off it just send '000r', You can use these too: `100r`, `050g`, `999b`. You can send all of them onces too: `100r050g999b`
 
 > Make sure that you are sending 4 bytes for each command. if you send '00r' or '0r' this cause padding problem and your other signals ignored. for example;
 > `120r` _ok_
