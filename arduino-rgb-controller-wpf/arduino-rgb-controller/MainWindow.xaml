@@ -1,0 +1,31 @@
+﻿<Window x:Class="arduino_rgb_controller.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Arduino RGB Controller" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="163*"/>
+            <ColumnDefinition Width="354*"/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel x:Name="stackPanel">
+                <Label x:Name="cloneMe" Background="#FF0068FF" Foreground="White">COM X</Label>
+            </StackPanel>
+        </ScrollViewer>
+
+        <Button x:Name="connect" Content="Connect" Height="40" VerticalAlignment="Bottom" Click="connect_Click"/>
+        <Button x:Name="rainbow" Content="Rainbow" Grid.Column="1" Height="40" VerticalAlignment="Bottom" Click="rainbow_Click" Panel.ZIndex="99"/>
+
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="1">
+            <StackPanel x:Name="stackPanel2">
+                <Label x:Name="connectionStatus" Background="#FFE800FF" Foreground="White">please select a port and connect</Label>
+                <Slider x:Name="r" Maximum="255" Margin="10" />
+                <Slider x:Name="g" Maximum="255" Margin="10" />
+                <Slider x:Name="b" Maximum="255" Margin="10" />
+
+                <Label x:Name="cloneMeLog">I'm a log</Label>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
