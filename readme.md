@@ -41,3 +41,4 @@ Here some pictures and video.
 
 ![program](docs/wpf.png)
 [![video link](https://j.gifs.com/ADlQn7.gif)](http://www.youtube.com/watch?v=AFJWsAw5nx0)
+#### [to watch video, click](http://www.youtube.com/watch?v=AFJWsAw5nx0)
