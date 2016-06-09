@@ -9,10 +9,14 @@ Prepare hardware
 
 ![cnt led](docs/cnt1.jpg)
 
-Connect `-(module)` to `GND(arduino)`
-Connect `R(module)` to `11(arduino)`
-Connect `G(module)` to `10(arduino)`
-Connect `B(module)` to `9(arduino)`
+1. Connect `-(module)` to `GND(arduino)`
+
+2. Connect `R(module)` to `11(arduino)`
+
+3. Connect `G(module)` to `10(arduino)`
+
+4. Connect `B(module)` to `9(arduino)`
+
 
 Prepare software
 -------------------
